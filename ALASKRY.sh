@@ -1199,9 +1199,9 @@ exit(){
 
 	echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 	sleep 0.2
-	echo -e "$yellow By : $green MOHAMED $cyan HACKER"
+	echo -e "$yellow By : $green AHMED $cyan ALASKRY"
 	sleep 0.2
-	echo -e "$yellow Telegram $red @HcmohtatefOfficial"
+	echo -e "$yellow Telegram $red @a7med_alaskry"
 	sleep 0.2
 	echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 			                                                                                
