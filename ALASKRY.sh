@@ -438,7 +438,7 @@ HMED ALASKRY"
 			sleep 0.1
 			echo -e "$yellow Telegram $red @a7med_alaskry"
 			sleep 0.1
-			echo -e "$red++++++++++++++++++++++++++++++++++++++=========>>>>>>" 
+			echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 			sleep 3
 			rasma
 			main
