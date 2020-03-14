@@ -468,7 +468,7 @@ kailHunter(){
 	clear
 	printf "$red"
 	figlet KaliNethunter
-	echo -e $white"==============>$red KaliNethunter $white<=============="
+	echo -e $white"$red KaliNethunter $white "
 	sleep 3
 	pkg install curl ruby -y
 	curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter88o9io
